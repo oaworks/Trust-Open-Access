@@ -3,4 +3,4 @@ A little add-on using various datasets to display how trusted a journal is - ver
 
 ## To install
 
-Head here: http://www.accessfirefox.org/Install_Addon_Manually.php 
+Download the latest XPI, then head here: http://www.accessfirefox.org/Install_Addon_Manually.php 
