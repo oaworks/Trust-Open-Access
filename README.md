@@ -21,4 +21,6 @@ rapidintellect.com/AEQweb (No)
 
 ## To install
 
-Download the latest XPI, then head here: http://www.accessfirefox.org/Install_Addon_Manually.php 
+1. Uninstall any versions of the Open Access Button you have installed.
+2. Download the latest XPI.
+3. Head here for installation instructions: http://www.accessfirefox.org/Install_Addon_Manually.php 
