@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link href="css/panel-style.css" type="text/css" rel="stylesheet">
+      <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.css">
+      <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap-theme.css">
+
+      <script src="jquery-1.11.1-dist/js/jquery.min.js"></script>
+      <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+      <script src="js/sidebar.js"></script>
+  </head>
+  <body>
+  <div class="container">
+      <div class="row">
+          <p></p>
+      </div>
+      <div class="row">
+          <div class="col-lg-4 container">
+              <form role="form">
+                    <div class="logo">
+                      <img src="images/logo.png">
+                    </div>
+                  <div class="form-group" id="loading">
+                    <p id="linkText">
+                      The add-on is now enabled. Upon visiting a open journal website, it will display how secured the journal is. To disable, please logout.
+                    </p>
+                  </div>
+                  <div class="form-group" id="approved">
+                    Go ahead. This is a trusted open access journal
+                  </div>
+                  <div class="form-group" id="notApproved">
+                     Proceed with caution.
+                  </div>
+                  <div class="form-group" id="noData">
+                     We have no data on this journal
+                  </div>
+                  <button id="logout_button" target="_blank" type="button" class="btn btn-default closebutton btn-sm btn-block">
+                      <h4>Logout</h4>
+                  </button>
+                  <div class="links">
+                    <div class="underlined"> 
+                      <a href="http://openaccessbutton.org/firefox/bug" target="_blank"><div class="left">File a bug </div></a>
+                      <a href="http://openaccessbutton.org/firefox/help" target="_blank"><div class="centralleft">Help </div></a>
+                      <a href="#" id="privacy_link" target="_blank"><div class="centralright">Privacy Settings </div></a>
+                    </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div> <!-- /container -->
+  <script>
+  
+  </script>
+  </body>
+</html>

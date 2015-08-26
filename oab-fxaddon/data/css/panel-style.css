@@ -1,0 +1,181 @@
+table.standard-table{
+    border:2px solid #fff
+}
+
+table.standard-table td{
+    background-color:rgba(212,221,228,.15);
+    border:2px solid #fff;
+    box-shadow:inset 0 -1px 0 0 rgba(212,221,228,.5)
+}
+
+table.standard-table td.header,.text-content table.standard-table th{
+    border:2px solid #fff;
+    border-bottom:2px solid #d4dde4;
+    background:rgba(212,221,228,.5);
+    font-family:'Open Sans Light',sans-serif;
+    font-size:14px;
+    padding:2px 8px 4px;
+    font-weight:700
+}
+.logo{
+    width: 99%;
+}
+.logo img{
+    width: 100%;
+}
+.right{
+    float: right !important;
+    color: #777;
+}
+.italic{
+    font-style: italic;
+    font-size: 10px;
+    font-color: #212F3F;
+    margin-bottom: 5px;
+}
+.inline{
+    display: inline-block;
+		width: 100%;
+}
+.access-left{
+    width: 49% !important;
+    margin-right: 1%;
+    float: left;
+    margin: 0px !important;
+    height: 75px;
+}
+.access-right{
+    width: 49% !important;
+    margin-left: 1%;
+    float: right;
+    margin: 0px !important;
+    height: 75px;
+}
+body{
+    color: #212F3F !important;
+}
+.twitter:hover{
+    background-color: #55ACEE;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    padding-left: 15px;
+    font-weight: bold;
+    padding-top: 8px;
+    margin-left: 10px;
+    float: left;
+}
+.facebook:hover{
+    background-color: #3b5998;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    padding-left: 15px;
+    font-weight: bold;
+    padding-top: 8px;
+    margin-left: 10px;
+    float: left;
+}
+.google:hover{
+    background-color: #166bec;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    padding-left: 15px;
+    font-weight: bold;
+    padding-top: 8px;
+    margin-left: 10px;
+    float: left;
+}
+.twitter{
+    background-color: #212F3F;
+    color: #fff;
+    width: 40px;
+    margin-top: 7px;
+    height: 40px;
+    padding-left: 15px;
+    font-weight: bold;
+    padding-top: 8px;
+    margin-left: 10px;
+    float: left;
+}
+.facebook{
+    background-color: #212F3F;
+    color: #fff;
+    width: 40px;
+    margin-top: 7px;
+    height: 40px;
+    padding-left: 15px;
+    font-weight: bold;
+    padding-top: 8px;
+    margin-left: 10px;
+    float: left;
+}
+.google{
+    background-color: #212F3F;
+    color: #fff;
+    width: 40px;
+    margin-top: 7px;
+    height: 40px;
+    padding-left: 15px;
+    font-weight: bold;
+    padding-top: 8px;
+    margin-left: 10px;
+    float: left;
+}
+.social_share a{
+    color: #fff;
+}
+.text{
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+}
+.social_share{
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    padding-bottom: 2px;
+    box-shadow: 0px 1px 0px 0px #eee;
+}
+.underlined{
+    border-bottom: 1px solid #428bca;
+}
+.underlined div{
+    float: left;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rightt{
+    float: right;
+}
+#storylength{
+    border: 0px;
+}
+#signup_button, #login_button{
+    width: 100%;
+    padding: 7px;
+}
+.links{
+    margin-top: 10px;
+}
+.success{
+    margin-top: 10px;
+}
+#sidebar_drag_message {
+		display: none;
+}
+.closebutton{
+   background-color: #212F3F;
+   color: #fff;
+   border: 0px;
+   width: 100%;
+}
+.closebutton:hover{
+   background-color: #123359;
+}
+#register_group,#signin_group {
+	width: 100%;
+}

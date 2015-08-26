@@ -1,0 +1,8 @@
+See the following files for unobfuscated javascript sources of libraries
+included in the extension:
+
+ - bootstrap.js for Bootstrap v3.2.0, included under the MIT license in the
+ 	 extension as data/bootstrap-3.2.0-dist/js/bootstrap.min.js.
+
+ - jquery.js for Jquery v1.11.1, included under the MIT license in the extension
+ 	 as data/jquery-1.11.1-dist/js/jquery.min.js.

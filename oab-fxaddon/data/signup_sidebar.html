@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link href="css/panel-style.css" type="text/css" rel="stylesheet">
+      <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.css">
+      <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap-theme.css">
+
+      <script src="jquery-1.11.1-dist/js/jquery.min.js"></script>
+			<script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+      <script src="js/signup.js"></script>
+  </head>
+  <body>
+
+	  <div class="container">
+      <div class="row">
+          <p></p>
+      </div>
+      <div class="row">
+          <div class="container">
+              <form role="form" id="signup-form">
+                  <div class="form-group">
+											<div id="choose_group">
+												<p>Thanks for downloading the Open Access Button Firefox Extension! To get you setup we need to know who you are.</p>
+												<button id="show_login_button" type="button" class="btn btn-default btn-sm btn-block">
+														Login
+												</button> 
+												<button id="show_register_button" type="button" class="btn btn-default btn-sm btn-block">
+														Register
+												</button> 
+											</div>
+											<div id="signin_group" class="input-group">
+													<h4>Username</h4>
+                          <input id="signin_username" style="width:100%;" type="text" class="form-control" placeholder="Username">
+                          <h4>Password</h4>
+                          <input id="signin_password" style="width:100%;" type="password" class="form-control" placeholder="Password">
+                          <button id="login_button" type="button" class="btn btn-default btn-sm btn-block">
+                              Login
+                          </button> 
+                          <button id="back_button_signin" type="button" class="btn btn-default btn-sm btn-block">
+                              Back
+                          </button> 
+                          <a><h5 id="forgot_password" style="margin-top: 12px; float: left; margin-left:1%;">Forgot password?</h5></a>
+											</div>
+                      <div id="register_group" class="input-group">
+                          <h4>Username</h4>
+                          <input id="username" style="width:100%;" type="text" class="form-control" placeholder="Username">
+                          <h4>Email address</h4>
+                          <input id="email" style="width:100%;" type="text" class="form-control" placeholder="Email Address">
+                          <h4>Password</h4>
+                          <input id="password" style="width:100%;" type="password" class="form-control" placeholder="Password">
+                          <h4>Profession</h4>
+													<select id="profession" style="width:100%;" type="profession" class="form-control" placeholder="Profession">
+														<option selected disabled>Choose a profession</option>
+														<option value="student">Student</option>
+														<option value="health_professional">Health Professional</option>
+														<option value="patient">Patient</option>
+														<option value="advocate">Advocate</option>
+														<option value="academic">Academic</option>
+														<option value="researcher">Researcher</option>
+														<option value="librarian">Librarian</option>
+														<option value="other">Other</option>
+														<option value="prefer_not_to_say">Prefer not to say</option>
+													</select>
+                          <button id="signup_button" type="button" class="btn btn-default btn-sm btn-block">
+                              Signup
+                          </button> 
+                          <button id="back_button_register" type="button" class="btn btn-default btn-sm btn-block">
+                              Back
+                          </button> 
+                      </div>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div> 
+  </body>
+</html>
